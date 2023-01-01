@@ -3,7 +3,7 @@ import pandas as pd
 
 fruits = pd.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
 fruits.set_index('Fruit', inplace=True)
-streamlit.dataframe(fruits_to_show)
+streamlit.dataframe(fruits)
 
 streamlit.title("My Mom's New Healthy Diner")
 streamlit.header('Breakfast Favorites')
