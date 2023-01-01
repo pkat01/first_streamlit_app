@@ -1,7 +1,7 @@
 import streamlit
 import pandas as pd
 
-my_fruit_list = pd.read_csv('Https://uni-lab.s3.west-2.amazonaws.com/dabw/fruit_macros.txt')
+my_fruit_list = pd.read_csv('https://uni-lab-files.s3.west-2.amazonaws.com/dabw/fruit_macros.txt')
 
 streamlit.title("My Mom's New Healthy Diner")
 streamlit.header('Breakfast Favorites')
