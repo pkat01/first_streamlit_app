@@ -1,6 +1,7 @@
 import streamlit
 import requests
 import pandas as pd
+import snowflake.connector
 
 fruits = pd.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
 fruits.set_index('Fruit', inplace=True)
